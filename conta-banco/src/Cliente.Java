@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Cliente { //Abstração
+    String nomeCliente;
     String agencia;
     int numeroConta;
-    String nomeCliente;
     double saldo;
     String tipoConta;
     int opcao = 0;
@@ -41,18 +41,18 @@ public class Cliente { //Abstração
     }
 
     void chamaMenu(){
-        //Interface Menu
-        System.out.println("******************** Menu Opções ***********************");
-        System.out.println("1- Consultar saldo");
-        System.out.println("2- Receber Valor");
-        System.out.println("3- Transferir Valor");
-        System.out.println("4- Sair");
-        System.out.println("Digite a opção Desejada: ");
-        opcao = scanner.nextInt();
-        System.out.println("***********************");
-
         //lAÇO DE REPETIÇÃO
         while (opcao != 4){
+            //Interface Menu
+            System.out.println("******************** Menu Opções ***********************");
+            System.out.println("1- Consultar saldo");
+            System.out.println("2- Receber Valor");
+            System.out.println("3- Transferir Valor");
+            System.out.println("4- Sair");
+            System.out.println("Digite a opção Desejada: ");
+            opcao = scanner.nextInt();
+            System.out.println("***********************");
+
             if (opcao == 1){
                 exibirSaldo();
             }

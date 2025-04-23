@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Executar ContaTerminal",
+      "request": "launch",
+      "mainClass": "ContaTerminal",
+      "cwd": "${workspaceFolder}/out/production/dio-trilha-java",
+      "preLaunchTask": "Compilar projeto Java"
+    }
+  ]
+}
