@@ -165,7 +165,7 @@ public class Cliente {
                 case 4 -> {
                     System.out.print("Digite o nome do destinatário: ");
                     String nomeDest = scanner.nextLine();
-
+                    
                     System.out.print("Digite a agência do destinatário: ");
                     String agenciaDest = scanner.nextLine();
 
